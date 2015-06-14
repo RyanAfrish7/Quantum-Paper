@@ -1,0 +1,78 @@
+
+/*
+TODO :
+
+ + The class .paper should be made global
+
+*/
+
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+body{
+
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	background-color: #efefef;
+
+	line-height: 1.4;
+
+	-webkit-font-smoothing: antialiased;
+
+}
+
+space{
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
+
+space.smaller{
+
+	margin-top: 36vh;
+
+}
+
+space.larger{
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) { 
+
+space{
+
+	width: 100vw;
+
+}
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
+
+space{
+
+	width: 80vw;
+
+}
+
+}
+
+@media only screen and (min-device-width: 736px) { 
+
+space{
+
+	width: 60vw;
+	
+	max-width: 800px;
+}
+
+}

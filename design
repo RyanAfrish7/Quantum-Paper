@@ -1,0 +1,7 @@
+<link rel="stylesheet" type="text/css" href="\design\components\base.css">
+<link rel="stylesheet" type="text/css" href="\design\components\header.css">
+<link rel="stylesheet" type="text/css" href="\design\components\button.css">
+<link rel="stylesheet" type="text/css" href="\design\components\card.css">
+<link rel="stylesheet" type="text/css" href="\design\components\footer.css">
+<script type="text/javascript" src='\design\jquery.dev.js'></script>
+<script type="text/javascript" src='\design\design.js'></script>
