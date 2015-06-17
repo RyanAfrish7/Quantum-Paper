@@ -1,0 +1,29 @@
+input[type~="text"][look~="holo"],input[type~="email"][look~="holo"],input[type~="number"][look~="holo"],input[type~="password"][look~="holo"]{
+
+	border: 1px solid rgba(0,0,0,0.2);
+
+	height: 32px;
+
+	padding-left: 0.5em;
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	margin-top: 8px;
+
+	margin-bottom: 8px;
+
+	transition: box-shadow 0.5s, border 0.3s;
+
+}
+
+input[type~="text"][look~="holo"]:focus,input[type~="email"][look~="holo"]:focus,input[type~="number"][look~="holo"]:focus,input[type~="password"][look~="holo"]:focus{
+
+	outline: 0;
+
+	border: 1px solid rgba(0,0,0,0.3);
+
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2) inset; 
+
+}

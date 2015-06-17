@@ -1,0 +1,44 @@
+input[type="text"][look="material"],input[type="email"][look="material"],input[type="number"][look="material"],input[type="password"][look="material"]{
+
+	border: 0;
+
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+
+	padding-bottom: 3px;
+
+	padding-top: 3px;
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	margin-top: 8px;
+
+	margin-bottom: 8px;
+
+}
+
+input[type="text"][look="material"]:focus,input[type="email"][look="material"]:focus,input[type="number"][look="material"]:focus,input[type="password"][look="material"]:focus{
+
+	outline: 0;
+
+	border: 0;
+
+	border-bottom: 2px solid #2196F3;
+
+}
+
+input[look="material"]:-webkit-autofill{
+
+	-webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+	
+	font-variant: 500;
+
+}
+
+input[look="material"]:-webkit-autofill:focus{
+
+	-webkit-text-fill-color: #2196F3 !important;
+
+}
+

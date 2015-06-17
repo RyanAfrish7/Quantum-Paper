@@ -1,0 +1,25 @@
+select[look="holo"]{
+
+	height: 32px;
+
+	border-radius: 2px;
+
+	border: 1px solid rgba(0, 0, 0, 0.2);
+
+	transition: box-shadow 0.4s, border 0.4s;
+
+	margin-top: 8px;
+
+	margin-bottom: 8px;
+
+}
+
+select[look="holo"]:focus{
+
+	outline: 0;
+
+	border: 1px solid rgba(0, 0, 0, 0.3);
+
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+}

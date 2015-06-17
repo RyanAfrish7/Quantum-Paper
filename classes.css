@@ -1,0 +1,21 @@
+.logo{
+
+	opacity: 0.5;	
+
+	transition: opacity 1.2s;
+
+}
+
+.logo:hover{
+
+	opacity: 1;
+
+	transition: opacity 0.2s;
+
+}
+
+.smallcaps{
+
+	font-variant: small-caps;
+
+}

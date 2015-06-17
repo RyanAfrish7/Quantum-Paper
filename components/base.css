@@ -16,6 +16,8 @@ TODO :
 
 body{
 
+	font-size: 14px;
+
 	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 	background-color: #efefef;
@@ -73,6 +75,8 @@ space{
 	width: 60vw;
 	
 	max-width: 800px;
+
+	min-width: 500px;
 }
 
 }
