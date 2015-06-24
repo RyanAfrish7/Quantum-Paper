@@ -1,0 +1,65 @@
+cardlist{
+
+	display: block;
+
+	width: 100%;
+
+	background-color: rgba(0, 0, 0, 0);
+
+	border-top: 1px solid rgba(0, 0, 0, 0);
+
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+
+	min-height: 72px;
+
+	-webkit-user-select: none;
+
+	cursor: default;
+
+	transition: background-color 0.2s, border 0.2s;
+
+}
+
+cardlist:hover{
+
+	background-color: rgba(0, 0, 0, 0.03);
+
+}
+
+cardlist:focus{
+
+	font-weight: bold;
+
+	outline: 0;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+	background-color: rgba(0, 0, 0, 0.03);
+
+}
+
+cardlist:active{
+
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+	background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+cardlist p, cardlist span{
+
+	display: inline-block;
+
+	vertical-align: middle;
+
+	color: black;
+
+	padding: 24px;
+
+	margin: 0;
+
+}
