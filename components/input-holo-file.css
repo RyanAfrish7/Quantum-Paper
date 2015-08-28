@@ -1,0 +1,58 @@
+input[type='file']
+{
+
+	margin-top: 8px;
+
+	margin-bottom: 8px;
+
+}
+
+input[type~="file"][look~="holo"]{
+
+	border : 0;
+
+	height: 32px;
+
+	font-weight: bold;
+
+	font-family: Roboto, "Helvetica Neue", "Helvetica";
+
+	padding-left: 8px;
+
+	padding-right: 8px;
+
+	margin-top: 8px;
+
+	margin-bottom: 8px;
+
+	text-transform: uppercase;
+
+	color: #2196F3;
+
+	border-radius: 2px;
+
+	background-color: transparent;
+
+	transition: background-color 0.2s, color 0.2s;
+
+}
+
+input[type~="file"][look~="holo"]:hover{
+
+	background-color: rgba(33,150,243,0.10);
+
+}
+
+input[type~="file"][look~="holo"]:focus{
+
+	outline: 0;
+
+}
+
+input[type~="file"][look~="holo"]:active{
+
+	background-color: rgb(33,150,243);
+
+	color: #FFFFFF;
+
+}

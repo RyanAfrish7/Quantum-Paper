@@ -29,6 +29,8 @@ header > h1{
 
 	font-weight: 300;
 
+	display: inline-block;
+
 }
 
 
@@ -73,5 +75,27 @@ header.ontransition > h1{
 	top: 0px;
 
 	margin-top: 0;
+
+}
+
+header a{
+
+	color: rgba(255, 255, 255, 0.9);
+
+	font-variant: small-caps;
+
+	font-weight: bold;
+
+	transition: color 0.6s;
+
+}
+
+header a:hover{
+
+	color: rgba(255, 255, 255, 1);
+
+	font-variant: small-caps;
+
+	text-decoration: underline;
 
 }

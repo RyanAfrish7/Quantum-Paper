@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="\design\components\card.css">
 <link rel="stylesheet" type="text/css" href="\design\components\cardlist.css">
 <link rel="stylesheet" type="text/css" href="\design\components\footer.css">
+<link rel="stylesheet" type="text/css" href="\design\components\input-holo-file.css">
 <link rel="stylesheet" type="text/css" href="\design\components\input-material-textfield.css">
 <link rel="stylesheet" type="text/css" href="\design\components\input-holo-textfield.css">
 <link rel="stylesheet" type="text/css" href="\design\components\input-holo-calendar.css">
